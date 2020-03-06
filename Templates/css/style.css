@@ -1,19 +1,19 @@
-body{
+body {
     margin: 0;
 }
 
 /* navigation bar */
 
-nav{
+nav {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color:rgb(15, 15, 56);
+    background-color: rgb(15, 15, 56);
     left: 0;
     z-index: 100;
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,56 +22,50 @@ nav{
     margin: 0 auto;
 }
 
-.nav-bar h1{
+.nav-bar h1 {
     color: white;
     font-size: 1.8rem;
     font-family: 'Indie Flower', cursive;
 }
 
-.button{
+.button {
     text-decoration: none;
     color: white;
-    border:  0.3rem solid grey;
+    border: 0.3rem solid grey;
     border-radius: 10px;
     padding: 0.5rem;
     font-family: 'Indie Flower', cursive;
-    /* background-color: rgb(15, 15, 56); */
 }
-
-
 
 /* container */
 
-.container{
+.container {
     width: 90%;
     margin: 10% auto;
 }
-.left{
+
+.left {
     width: 50%;
     float: left;
-    display: inline;
-    
-    
 }
-.left img{
+
+.left img {
     width: 100%;
 }
 
-.right{
+.right {
     width: 50%;
     float: right;
-    display: inline;
-    /* background-color:  #58D1F5; */
 }
 
 
-.description{
+.description {
     text-align: center;
-    width:50%;
-    margin-left: 20%;
+    width: 50%;
+    margin-left: 25%;
 }
 
-.description a{
+.description a {
     text-decoration: none;
     color: #2c1169;
     border: 0.2rem solid #2c1169;
@@ -80,8 +74,7 @@ nav{
     margin-bottom: 1rem;
 }
 
-.login-form{
-    /* background-color: rgb(15, 15, 56); */
+.login-form {
     padding: 1rem;
     margin: 0.8rem;
     text-align: center;
@@ -89,25 +82,22 @@ nav{
     width: 80%;
 }
 
-.login-form h2{
+.login-form h1 {
     color: black;
-    
+
 }
 
 input {
     margin: 0.2rem;
-    /* border: none; */
-    padding: 0.5rem;
+    padding: 0.3rem;
     outline: none;
-    width: 50%;
+    width: 58%;
 }
 
 #signin {
     padding: 0.3rem 1.5rem;
-    /* text-decoration: none; */
     color: #2c1169;
     border: 0.2rem solid #2c1169;
-    /* padding: 0.5rem; */
     border-radius: 5px;
     margin-bottom: 1rem;
 }
@@ -116,6 +106,5 @@ input {
     .left {
         width: 100%;
     }
-    
-}
 
+}
