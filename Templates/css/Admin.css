@@ -84,7 +84,6 @@ td {
     border: 1px solid rgb(15, 15, 56);
     margin-top: 40px;
 
-
 }
 
 .table1 img,
@@ -95,6 +94,16 @@ h5 {
     margin-right: auto;
 
     font-size: medium;
+}
+
+.table1 h3 {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table1 li {
+    margin-bottom: 10px;
 
 }
 
@@ -118,5 +127,31 @@ h5 {
 
 .action {
     width: 30%;
+
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#view_offices {
+    padding: 0.3rem 1.5rem;
+    text-decoration: none;
+    color: black;
+    border: 0.2rem solid #2c1169;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+#new-office {
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    color: black;
+    border: 0.2rem solid #2c1169;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-left: 849px;
+
 
 }
