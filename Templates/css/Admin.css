@@ -12,6 +12,7 @@ nav {
     z-index: 100;
 }
 
+
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -60,10 +61,8 @@ nav {
 
 #new-party {
     padding: 0.3rem 1.5rem;
-
     margin-left: 865px;
     margin-right: 0;
-
     text-decoration: none;
     color: black;
     border: 0.2rem solid #2c1169;
@@ -92,7 +91,6 @@ h5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     font-size: medium;
 }
 
@@ -152,6 +150,4 @@ hr {
     border-radius: 5px;
     margin-bottom: 1rem;
     margin-left: 849px;
-
-
 }
