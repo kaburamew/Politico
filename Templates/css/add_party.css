@@ -1,17 +1,18 @@
-body{
+body {
     margin: 0;
 }
-  /* navigation-bar */
-nav{
+
+/* navigation-bar */
+nav {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color:rgb(15, 15, 56);
+    background-color: rgb(15, 15, 56);
     left: 0;
     z-index: 100;
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,20 +21,21 @@ nav{
     margin: 0 auto;
 }
 
-.nav-bar h1{
+.nav-bar h1 {
     color: white;
     font-size: 1.8rem;
     font-family: 'Indie Flower', cursive;
 }
 
-.button{
+.button {
     text-decoration: none;
     color: white;
-    border:  0.3rem solid grey;
+    border: 0.3rem solid grey;
     border-radius: 10px;
     padding: 0.5rem;
     font-family: 'Indie Flower', cursive;
 }
+
 .signup-form {
     background-color: #ebebeb;
     padding: 1rem;
@@ -45,7 +47,7 @@ nav{
 
 /* container */
 
-.container{
+.container {
     width: 35%;
     margin: 10% auto;
 }
@@ -60,8 +62,8 @@ input {
     padding: 0.5rem;
     outline: none;
     border-radius: 3px;
-    margin-top: 20px;
-    width: 70%;
+    margin-top: 30px;
+    width: 60%;
 }
 
 #signup {
@@ -71,4 +73,19 @@ input {
     border-radius: 5px;
     margin-bottom: 1rem;
     width: 30%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-upload {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-right: 125px;
+    margin-top: 10px;
+    background-color: white;
 }
