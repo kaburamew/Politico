@@ -47,7 +47,9 @@ nav {
     margin: 10% auto;
 }
 
-#parties {
+
+#view_parties {
+
     padding: 0.3rem 1.5rem;
     text-decoration: none;
     color: black;
@@ -58,7 +60,10 @@ nav {
 
 #new-party {
     padding: 0.3rem 1.5rem;
-    margin-left: 15%;
+
+    margin-left: 865px;
+    margin-right: 0;
+
     text-decoration: none;
     color: black;
     border: 0.2rem solid #2c1169;
@@ -68,12 +73,18 @@ nav {
 
 /* parties table */
 
+
+.table1 {
+    width: 100%;
+}
+
 .table1,
 th,
 td {
     border: 1px solid rgb(15, 15, 56);
     margin-top: 40px;
-    width: 40%;
+
+
 }
 
 .table1 img,
@@ -82,9 +93,30 @@ h5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    font-size: medium;
+
 }
 
 #edit {
     width: 20px;
+
+    margin-right: 15px;
+    margin-left: 40%;
+    display: inline-block;
+    color: #0F0F38;
+}
+
+#delete {
+    width: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    color: #0F0F38;
+
+
+}
+
+.action {
+    width: 30%;
 
 }
