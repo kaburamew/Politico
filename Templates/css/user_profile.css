@@ -104,6 +104,20 @@ hr {
     margin-right: 90px;
 }
 
+h4 {
+    text-decoration: underline;
+    font-size: larger;
+    text-align: center;
+}
+
+#president {
+    margin-right: 76px;
+}
+
+#address {
+    margin-bottom: 50px;
+}
+
 .vote-results {
     border: solid rgb(15, 15, 56);
     background: rgb(15, 15, 56);
