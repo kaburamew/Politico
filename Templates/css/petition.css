@@ -36,13 +36,18 @@ nav {
     font-family: 'Indie Flower', cursive;
 }
 
+#profile {
+    margin-left: 900px;
+
+}
+
 .apply-form {
     background-color: #ebebeb;
     padding: 1rem;
     margin: 0.8rem;
     text-align: center;
     border-radius: 10px;
-    
+
 }
 
 /* container */
@@ -66,7 +71,7 @@ input {
     width: 60%;
 }
 
-textarea{
+textarea {
     width: 60%;
     margin-top: 10px;
 
@@ -81,6 +86,3 @@ textarea{
     margin-bottom: 1rem;
     width: 30%;
 }
-
-
-

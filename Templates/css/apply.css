@@ -36,6 +36,11 @@ nav {
     font-family: 'Indie Flower', cursive;
 }
 
+#profile {
+    margin-left: 900px;
+
+}
+
 .apply-form {
     background-color: #ebebeb;
     padding: 1rem;
