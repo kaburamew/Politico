@@ -37,6 +37,11 @@ nav {
     font-family: 'Indie Flower', cursive;
 }
 
+#profile {
+    margin-left: 900px;
+
+}
+
 /* container */
 .container {
     width: 90%;
@@ -54,16 +59,7 @@ nav {
     margin-bottom: 1rem;
 }
 
-#new-party {
-    padding: 0.3rem 1.5rem;
-    margin-left: 865px;
-    margin-right: 0;
-    text-decoration: none;
-    color: black;
-    border: 0.2rem solid #2c1169;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-}
+
 
 /* parties table */
 
@@ -89,37 +85,17 @@ h5 {
     font-size: medium;
 }
 
-.table1 h3 {
-    width: 150px;
+.table1 h3,
+td {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .table1 li {
     margin-bottom: 10px;
-
-}
-
-#edit {
-    width: 20px;
-
-    margin-right: 15px;
-    margin-left: 40%;
-    display: inline-block;
-    color: #0F0F38;
-}
-
-#delete {
-    width: 20px;
-    display: inline-block;
-    margin-left: 10px;
-    color: #0F0F38;
-
-
-}
-
-.action {
-    width: 30%;
+    text-align: center;
+    list-style-type: none;
 
 }
 
@@ -135,14 +111,4 @@ hr {
     border: 0.2rem solid #2c1169;
     border-radius: 5px;
     margin-bottom: 1rem;
-}
-
-#new-office {
-    padding: 0.3rem 1rem;
-    text-decoration: none;
-    color: black;
-    border: 0.2rem solid #2c1169;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    margin-left: 849px;
 }

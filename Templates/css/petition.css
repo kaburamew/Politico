@@ -41,13 +41,13 @@ nav {
 
 }
 
-.signup-form {
+.apply-form {
     background-color: #ebebeb;
     padding: 1rem;
     margin: 0.8rem;
     text-align: center;
     border-radius: 10px;
-    height: 420px;
+
 }
 
 /* container */
@@ -57,7 +57,7 @@ nav {
     margin: 10% auto;
 }
 
-.signup-form h1 {
+.apply-form h1 {
     color: black;
 }
 
@@ -67,30 +67,22 @@ input {
     padding: 0.5rem;
     outline: none;
     border-radius: 3px;
-    margin-top: 30px;
+    margin-top: 10px;
     width: 60%;
 }
 
-#signup {
+textarea {
+    width: 60%;
+    margin-top: 10px;
+
+
+}
+
+.apply-button {
     padding: 0.3rem 1.5rem;
     color: #2c1169;
     border: 0.2rem solid #2c1169;
     border-radius: 5px;
     margin-bottom: 1rem;
     width: 30%;
-}
-
-input[type="file"] {
-    display: none;
-}
-
-.file-upload {
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    display: inline-block;
-    padding: 6px 12px;
-    cursor: pointer;
-    margin-right: 125px;
-    margin-top: 10px;
-    background-color: white;
 }
