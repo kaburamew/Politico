@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+/* navigation-bar */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(15, 15, 56);
+    left: 0;
+    z-index: 100;
+}
+
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav-bar h1 {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    border: 0.3rem solid grey;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+#profile {
+    margin-left: 900px;
+
+}
+
+/* container */
+.container {
+    width: 90%;
+    margin: 10% auto;
+}
+
+
+#view_parties {
+
+    padding: 0.3rem 1.5rem;
+    text-decoration: none;
+    color: black;
+    border: 0.2rem solid #2c1169;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+
+
+/* parties table */
+
+
+.table1 {
+    width: 100%;
+}
+
+.table1,
+th,
+td {
+    border: 1px solid rgb(15, 15, 56);
+    margin-top: 40px;
+
+}
+
+.table1 img,
+h5 {
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+}
+
+.table1 h3,
+td {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table1 li {
+    margin-bottom: 10px;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#view_offices {
+    padding: 0.3rem 1.5rem;
+    text-decoration: none;
+    color: black;
+    border: 0.2rem solid #2c1169;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
