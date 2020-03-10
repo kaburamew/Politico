@@ -74,7 +74,8 @@ nav {
     margin-bottom: 1rem;
 }
 
-.login-form {
+#login-form {
+    display: none;
     padding: 1rem;
     margin: 0.8rem;
     text-align: center;
@@ -82,7 +83,7 @@ nav {
     width: 80%;
 }
 
-.login-form h1 {
+#login-form h1 {
     color: black;
 
 }
